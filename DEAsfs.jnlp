@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0"
+      codebase="http://www.digitalepigraphy.org/toolbox/"
+      href="DEAsfs.jnlp">
+    <information>
+        <title>Digital Epigraphy Toolbox shape from shading algorithm</title>
+        <vendor>Digital Epigraphy and Archaeology Group</vendor>
+        <homepage href="http://www.digitalepigraphy.org"/>
+        <description>Digital Epigraphy Toolbox shape from shading algorithm</description>
+        <description kind="short">Digital Epigraphy Toolbox shape from shading algorithm</description>
+		<icon href="dwlogo.png"/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+
+    <resources>
+        <j2se version="1.6+" initial-heap-size="512m" max-heap-size="512m"/>
+        <jar href="DEAsfs.jar" main="true"/>
+    </resources>
+    <application-desc main-class="org.Digital_Epigraphy_3D_Reconstruction_App"/>
+</jnlp>
